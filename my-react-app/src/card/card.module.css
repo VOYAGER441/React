@@ -1,0 +1,22 @@
+/* card component */
+.cardImg {
+    /* width: 250px; */
+    max-width: 90%;
+    border-radius: 50px;
+}
+
+.card {
+    /* width: 400px; */
+    border: 2px solid rgba(255, 0, 0, 0.551);
+    border-radius: 40px;
+    box-shadow: 5px 5px 5px rgba(238, 58, 58, 0.707);
+    padding: 20px;
+    margin: 40px;
+    text-align: center;
+    max-width: 250px;
+    display: inline-block;
+}
+
+/* .card h2{
+    color: rgb(0, 0, 0);
+  } */
