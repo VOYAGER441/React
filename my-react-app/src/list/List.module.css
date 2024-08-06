@@ -1,0 +1,64 @@
+body {
+    background-color: #2d2d2d;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul li {
+    margin: 0.3em 0;
+}
+
+ul li b {
+    color: #f1c40f; /* Highlight the calorie count */
+}
+body {
+    background-color: #2d2d2d;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+ul li {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #ffffff;
+    padding: 8px;
+    margin: 2px 0;
+    background-color: #333333;
+}
+
+ul li:nth-child(even) {
+    background-color: #3b3b3b;
+}
+
+ul li span {
+    color: #f1c40f; /* Highlight the calorie count */
+}
+
+ul li::before {
+    content: "";
+    width: 20px; /* Adjust the width to create space for a table-like appearance */
+}

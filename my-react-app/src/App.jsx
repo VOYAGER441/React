@@ -4,11 +4,26 @@
 // import Card from "./card/Card";
 // import Button from "./Button/Button";
 // import ICards from "./iCards/iCards";
-import Co from "./Co";
-
-
+// import Co from "./Co";
+// import Lists from "./list/Lists";
+import Button from "./Onclick/Button";
 
 function App() {
+
+
+
+  // const fruits = [{ id: 1, name: 'mango', cal: 123 },
+  // { id: 2, name: "orange", cal: 122 },
+  // { id: 3, name: 'apple', cal: 124 },
+  // { id: 4, name: 'blackberry', cal: 121 }];
+
+  // const vegetables = [
+  //   { id: 5, name: 'carrot', cal: 41 },
+  //   { id: 6, name: 'broccoli', cal: 55 },
+  //   { id: 7, name: 'spinach', cal: 23 },
+  //   { id: 8, name: 'potato', cal: 77 }
+  // ];
+
   return (
     <>
       {/* <Header/>
@@ -41,7 +56,14 @@ function App() {
         dec=" Why do programmers prefer dark mode? Because light attracts bugs! 😄🌙"
       /> */}
 
-        <Co login={false} name='Dev-Mainak'/>
+      {/* <Co login={false} name='Dev-Mainak'/> */}
+
+
+
+      {/* <Lists items={fruits} category="Fruits" />
+      <Lists items={vegetables} category="Vegetables" /> */}
+
+      <Button />
 
 
     </>
