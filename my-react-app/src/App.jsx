@@ -6,7 +6,11 @@
 // import ICards from "./iCards/iCards";
 // import Co from "./Co";
 // import Lists from "./list/Lists";
-import Button from "./Onclick/Button";
+// import Button from "./Onclick/Button";
+// import Profile from "./Profile";
+// import MyComponent from "./Event/MyComponent";
+
+import Color from "./Color/Color";
 
 function App() {
 
@@ -63,8 +67,14 @@ function App() {
       {/* <Lists items={fruits} category="Fruits" />
       <Lists items={vegetables} category="Vegetables" /> */}
 
-      <Button />
+      {/* <Button /> */}
 
+      {/* <Profile /> */}
+
+      {/* <MyComponent /> */}
+
+      
+      <Color/>
 
     </>
   );
